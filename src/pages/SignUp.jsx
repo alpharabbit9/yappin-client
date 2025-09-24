@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import BorderAnimatedContainer from '../components/BorderAnimatedContainer'
-import { LoaderIcon, Mail, MessageCircle, UserIcon } from 'lucide-react'
+import { LoaderIcon, LockIcon, Mail, MessageCircle, UserIcon } from 'lucide-react'
 import { useAuthStore } from '../useAuthStore'
 import { Link } from 'react-router'
 
@@ -76,7 +76,7 @@ const SignUp = () => {
                                         <label className='auth-input-label'>Password</label>
 
                                         <div className='relative'>
-                                            <Mail className='auth-input-icon' />
+                                            <LockIcon className='auth-input-icon' />
 
                                             <input
                                                 type="password"
