@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
-import { useAuthStore } from '../useAuthStore'
+
 import { LoaderIcon, LockIcon, Mail, MessageCircle, UserIcon } from 'lucide-react'
 import { Link } from 'react-router'
 import BorderAnimatedContainer from '../components/BorderAnimatedContainer'
+import { useAuthStore } from '../store/useAuthStore'
 
 const LoginPage = () => {
 

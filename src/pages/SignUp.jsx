@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import BorderAnimatedContainer from '../components/BorderAnimatedContainer'
 import { LoaderIcon, LockIcon, Mail, MessageCircle, UserIcon } from 'lucide-react'
-import { useAuthStore } from '../useAuthStore'
+
 import { Link } from 'react-router'
+import { useAuthStore } from '../store/useAuthStore'
 
 const SignUp = () => {
 
